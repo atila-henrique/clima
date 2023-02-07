@@ -44,4 +44,5 @@ function updateDisplay(data){
     city.innerHTML = "Tempo em " + data.name + "!"
     temp.innerHTML = Math.floor(data.main.temp) + "°C"
     description.innerHTML = data.weather[0].description
+    clearInput()
 }
