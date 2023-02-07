@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app{
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c;
+    color: white;
+    width: 80%;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c;
+    cursor: pointer;
+    float: right;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: #7c7c7c;
+}
+
+.containerPrimary{
+    margin-top: 30px;
+}
+
+.containerSecondary{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa{
+    width: 20px;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+}
+
+.temp{
+    color: white;
+    margin-top: 30px;
+    
+}
+
+
+.icone{
+    margin-bottom: -18px;
+}
+
+.description{
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    display: inline;
+}
+
+.umidade{
+    color: white;
+    margin-top: 30px;
+}
